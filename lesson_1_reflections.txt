@@ -1,0 +1,28 @@
+--How did viewing a diff between two versions of a file help you see the bug that was introduced?
+The Ubuntu terminal has plus and minus signs to show which lines were added and removed, respectively.
+The terminal commands I used to compare:
+daniel@daniel-300E5K-300E5Q:~$  cd Downloads/
+daniel@daniel-300E5K-300E5Q:~/Downloads$ diff -u game_old.js game_new.js
+
+
+--How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+When you mess up, you can restore to a previous version or compare with a previous version and see what you did wrong.
+
+
+--What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Pros: Your commits will always make sense, in theory
+Cons: You might forget to commit and lose data or confuse yourself
+
+--Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Git is designed for things like apps and webpages that are by default going to have multiple files interacting with each other. Google Docs, not necessarily.
+
+--How can you use the commands git log and git diff to view the history of files?
+git log shows commit history, git diff shows the insertions and deletions between two versions of a file
+
+--How might using version control make you more confident to make changes that could break something?
+Pretty self explanatory, I'd say. You could fuck shit up knowing you could just go back easily.
+
+
+--Now that you have your workspace set up, what do you want to try using Git for?
+I want to make my Wikipedia viewer from different computers without using a flash drive
+s
