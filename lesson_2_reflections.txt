@@ -14,3 +14,7 @@ Branches are good for adding and experimenting with a new feature before merging
 --How do the diagrams help you visualize the branch structure?
 I can see which branches start where, and which commits are included in each branch. I can also easily see any unreachable commits;
 these are commits that 'branch' off but have no branch name associated with them. I couldn't git log a branch name and see that commit.
+
+--What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result is that any changes made two either branch since they diverged are combined into a new branch, often the master branch. With a diagram, you
+can see the parent commit of the new branch and which commits will be included in the new branch. 
