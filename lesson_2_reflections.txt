@@ -17,4 +17,8 @@ these are commits that 'branch' off but have no branch name associated with them
 
 --What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 The result is that any changes made two either branch since they diverged are combined into a new branch, often the master branch. With a diagram, you
-can see the parent commit of the new branch and which commits will be included in the new branch. 
+can see the parent commit of the new branch and which commits will be included in the new branch.
+
+--What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Git might not know which version of a line you want to use, so rather than making a guess and giving a potentially unexpected result, Git lets you
+resolve merge conflicts manually.
