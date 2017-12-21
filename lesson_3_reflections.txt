@@ -9,3 +9,11 @@ Someone else may have written code that conflicts with a feature you're currentl
 link to the original repository.
 -Clone- copying a repository onto a local computer. Use this to "download" something from GitHub.
 -Branch- Sets up a different version of the master code that you can edit independently. Useful for adding experimental features.
+
+--What is the benefit of having a copy of the last known state of the remote stored locally?
+You can then keep track of what changes you've made since last making a git push.
+
+--How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+I'd probably send emails or use a flash drive. I know Gmail doesn't allow you to attach Javascript files, so that'd be
+problematic. Also, we wouldn't have access to things like a commit history, pull requests, etc. Keeping track of what
+changes had been made to the files would be nigh impossible.
