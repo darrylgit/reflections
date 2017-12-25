@@ -25,4 +25,3 @@ Pretty self explanatory, I'd say. You could fuck shit up knowing you could just 
 
 --Now that you have your workspace set up, what do you want to try using Git for?
 I want to make my Wikipedia viewer from different computers without using a flash drive
-s
