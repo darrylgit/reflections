@@ -17,3 +17,7 @@ You can then keep track of what changes you've made since last making a git push
 I'd probably send emails or use a flash drive. I know Gmail doesn't allow you to attach Javascript files, so that'd be
 problematic. Also, we wouldn't have access to things like a commit history, pull requests, etc. Keeping track of what
 changes had been made to the files would be nigh impossible.
+
+--When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+As discussed before, you can make experimental changes easily in a new branch. Additionally, if you're collaborating and you want
+other to review a feature before you merge it into the master branch, creating a new branch and then a pull request would be ideal.
